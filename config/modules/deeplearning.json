@@ -1,0 +1,53 @@
+{
+	"interfaces" : [
+		{
+			"name" : "dlabs",
+			"params" : {
+				"model" : "bert_abs"
+			}
+		},
+		{
+			"name" : "dlcat",
+			"params" : {
+				"model" : "cat_demo"
+			}
+		},
+		{
+			"name" : "dlevent",
+			"params" : {
+				"model" : "bert_event"
+			}
+		},
+		{
+			"name" : "dlMlEmojiExt"
+		},
+		{
+			"name" : "dlMlEmojiStrip"
+		},
+		{
+			"name" : "dlnre",
+			"params" : {
+				"model" : "bert_nre_en2"
+			}
+		},
+		{
+			"name" : "dlner",
+			"params" : {
+				"model" : "ner_demo"
+			}
+		},
+		{
+			"name" : "dlAllModel"
+		}
+	],
+	"input" : "C:/work/WorkTools/CKM9/data",
+     "dysPath" : "C:/work/Software/eclipse201912/workspace/ckm.test.9.0/testdata/input/stability_dy/dySearchWords.csv",
+	"encode" : "UTF-8",
+	"threadNumber" : "1",
+	"totalTime" : "2592000",
+	"block" : "30",
+	"output" : "./logs/statistic.txt",
+	"empty" : "./logs/emptyResultInfo.txt",
+	"exception" : "./logs/exceptionInfo.txt",
+	"stopErrorNum" : "10000"
+}

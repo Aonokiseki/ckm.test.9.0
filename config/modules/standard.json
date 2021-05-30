@@ -1,0 +1,75 @@
+{
+	"interfaces" : [
+		{
+			"name" : "segement"
+		},
+		{
+			"name" : "plo"
+		},
+		{
+			"name" : "abs",
+			"params" : {
+				"numOfSub" : "6"
+			}
+		},
+		{
+			"name" : "roboTitle"
+		},
+		{
+			"name" : "appraiseParser"
+		},
+		{
+			"name" : "appraiseOpinionNews",
+			"params" : {
+				"config" : "config.ini"
+			}
+		},
+		{
+			"name" : "eventQk"
+		},
+		{
+			"name" : "indicators"
+		},
+		{
+			"name" : "autocat",
+			"params" : {
+				"model" : "demo"
+			}
+		},
+		{
+			"name" : "rulecatSimple",
+			"params" : {
+				"model" : "地区分类"
+			}
+		},
+		{
+			"name" : "collation",
+			"params" : {
+				"model" : "demo"
+			}
+		},
+		{
+			"name" : "dySearch",
+			"params" : {
+				"model" : "demo",
+				"options" : "0"
+			}
+		},
+		{
+			"name" : "stsim"
+		},
+		{
+			"name" : "rdf"
+		}
+	],
+	"input" : "C:/work/WorkTools/CKM9/data",
+	"dysPath" : "./testdata/input/stability_dy/dySearchWords.csv",
+	"encode" : "UTF-8",
+	"threadNumber" : "1",
+	"totalTime" : "2592000",
+	"block" : "1",
+	"output" : "./logs/statistic.txt",
+	"empty" : "./logs/emptyResultInfo.txt",
+	"exception" : "./logs/exceptionInfo.txt",
+	"stopErrorNum" : "100000"
+}

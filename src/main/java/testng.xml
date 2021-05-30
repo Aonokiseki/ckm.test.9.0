@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="CkmTest">
+        <classes>
+        	<class name="com.trs.ckm.test.function.Abs"/>
+        	<class name="com.trs.ckm.test.function.AppraiseEmotion"/>
+        	<class name="com.trs.ckm.test.function.AppraiseOpinionNews"/>
+        	<class name="com.trs.ckm.test.function.Autocat"/>
+        	<class name="com.trs.ckm.test.function.ChineseTs"/>
+        	<class name="com.trs.ckm.test.function.Cluster"/>
+        	<class name="com.trs.ckm.test.function.CollationCommon"/>
+            <class name="com.trs.ckm.test.function.Coref"/>
+            <!--  
+            深度学习接口换成了GPU框架, 不要和常用接口放到一起运行
+            <class name="com.trs.ckm.test.function.DeepLearningTest"/>
+            -->
+            <class name="com.trs.ckm.test.function.DySearch"/>
+            <class name="com.trs.ckm.test.function.EntityLink"/>
+            <class name="com.trs.ckm.test.function.EventQuick"/>
+            <class name="com.trs.ckm.test.function.ExtEntity"/>
+            <class name="com.trs.ckm.test.function.ExtExtract"/>
+            <class name="com.trs.ckm.test.function.ExtRdf"/>
+            <class name="com.trs.ckm.test.function.FastTextClassifySeg"/>
+            <class name="com.trs.ckm.test.function.FormDate"/>
+            <class name="com.trs.ckm.test.function.Indicators"/>
+            <class name="com.trs.ckm.test.function.Language"/>
+            <class name="com.trs.ckm.test.function.ModelsManagement"/>
+            <class name="com.trs.ckm.test.function.Ner"/>
+            <class name="com.trs.ckm.test.function.NewWord"/>
+            <class name="com.trs.ckm.test.function.Parser"/>
+            <class name="com.trs.ckm.test.function.ParserSyntax"/>
+            <class name="com.trs.ckm.test.function.Plo"/>
+            <class name="com.trs.ckm.test.function.PloSeg"/>
+            <class name="com.trs.ckm.test.function.PosEng"/>
+            <class name="com.trs.ckm.test.function.PySearch"/>
+            <class name="com.trs.ckm.test.function.RoboTitle"/>
+            <class name="com.trs.ckm.test.function.Rulecat"/>
+            <class name="com.trs.ckm.test.function.Seg"/>
+            <class name="com.trs.ckm.test.function.Sim"/>
+            <class name="com.trs.ckm.test.function.Stsim"/>
+           	<class name="com.trs.ckm.test.function.TextCompare"/>
+           	<class name="com.trs.ckm.test.function.About"/>
+        </classes>
+    </test>
+</suite>
