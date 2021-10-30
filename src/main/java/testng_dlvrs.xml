@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="CkmTest">
+        <classes>
+        	<class name="com.trs.dlvrs.test.function.FaceRecognitionTest"/>
+        	<class name="com.trs.dlvrs.test.function.GraphSearchTest"/>
+        	<class name="com.trs.dlvrs.test.function.ImageFeatureTest"/>
+        	<class name="com.trs.dlvrs.test.function.ObjectDetectionTest"/>
+        	<class name="com.trs.dlvrs.test.function.OCRTest"/>
+        	<class name="com.trs.dlvrs.test.function.SceneDetectionTest"/>
+        	<class name="com.trs.dlvrs.test.function.SummaryTest"/>
+        </classes>
+    </test>
+</suite>

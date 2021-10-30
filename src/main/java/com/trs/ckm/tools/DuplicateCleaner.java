@@ -101,7 +101,7 @@ public class DuplicateCleaner {
         for(int i=0; i<writers.size(); i++)
         	writers.get(i).close();
         this.writers.clear();
-        for(int i=0; i<divideNumber; i++)
+        for(int i=0; i<divideNumber; i++) 
         	 writers.add(new BufferedWriter(
                      new OutputStreamWriter(
                              new FileOutputStream(DEFAULT_TEMP_FILE_AFTER_CLEAN + "/" + i + ".txt"), encoding)));      
@@ -139,10 +139,9 @@ public class DuplicateCleaner {
         for(int i=0, size=Math.min(files.size(), divideNumber); i<size; i++){
             finalReader = new BufferedReader(
             		new InputStreamReader(new FileInputStream(files.get(i).getAbsolutePath()), encoding));
-            while((line = finalReader.readLine())!=null){
+            while((line = finalReader.readLine())!=null)
                 finalWriter.append(line).append(System.lineSeparator());
-                finalWriter.flush();
-            }
+            finalWriter.flush();
             /* 这个地方一定要关掉文件流, 不然无法删除临时文件*/
             finalReader.close();
         }
